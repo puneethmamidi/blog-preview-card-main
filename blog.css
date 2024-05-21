@@ -36,7 +36,7 @@ figure {
 }
 
 figure img{
-  height:208px;
+  width:100%;  
   border-radius: 10px;
   max-width:100%;
   
@@ -81,10 +81,27 @@ h1:hover{
     font-weight: bolder;
 }
 
-@media all and (max-width:550) {
+
+
+@media (min-width:320px) and (max-width:351px){
     .card{
-        width:100%;
-        margin:0px;
+        width:240px;
     }
-    
+    button{
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width:352px) and (max-width:440px){
+    .card{
+        width:300px;
+
+    }    
+    button{
+        margin-top: 10px;
+    }
+
+   
+
 }
