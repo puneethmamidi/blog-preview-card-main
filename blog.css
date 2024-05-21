@@ -24,7 +24,7 @@ body{
     border-radius:20px;
     box-shadow: 10px 10px  #1E1E1E;
     display: block;
-    margin:250px auto 150px auto;
+    margin:200px auto 150px auto;
 }
 .card:hover{
     box-shadow: 15px 15px #1E1E1E;
