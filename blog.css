@@ -1,0 +1,79 @@
+@font-face {
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+    font-family: italic-variable ;
+}
+
+@font-face {
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+    font-family: variable-font;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F4D04E;
+}
+
+.card{
+    width: 398px;
+    height:100%;
+    background-color:#fff;
+    padding:24px;
+    border: 1px solid #1E1E1E;
+    border-radius:20px;
+    box-shadow: 10px 10px  #1E1E1E;
+    display: block;
+    margin:250px auto 150px auto;
+}
+.card:hover{
+    box-shadow: 15px 15px #1E1E1E;
+}
+figure {
+    margin: 0px;
+}
+
+figure img{
+  height:208px;
+  border-radius: 10px;
+  
+}
+
+button{
+    border:none;
+    margin-top: 15px;
+    background-color:#F4D04E;
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 4px 12px;
+
+}
+
+h1{
+    font-family: 'variable-font';
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+h1:hover{
+    color:#F4D04E;
+}
+
+.desc-paragraph{
+    color:#7F7F7F;
+    font-family: variable-font;
+    line-height: 20px;
+}
+
+.profile figure img{
+    height: 32px;
+}
+.profile{
+    display: flex;
+    
+}
+.profile p{
+    font-size: 16px;
+    margin:8px 0px 0px 12px;
+    font-weight: bolder;
+}
